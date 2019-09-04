@@ -22,6 +22,6 @@
 
 //---------X---------------X-------------X------------------------------------------------------------
 
-const name =require('./utils');
+const printNotes =require('./Notes');
 
-console.log(name);
+console.log(printNotes());
