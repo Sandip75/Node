@@ -12,8 +12,16 @@
 
 //---------X---------------X-------------X------------------------------------------------------------
 
-require('./utils');
+// const fs = require('fs');
+// //fs.writeFileSync('Note.txt','Welcome to node js');  // This will create one file and write in that 
+// //fs.writeFileSync('Note.txt','Hi How are you');  // This will update existing file 
+// //
+// // Challenge : Append a messeage in Note.txt
+// //
+// fs.appendFileSync('Note.txt' , 'Where are you');  // This will append the text in Note.txt
 
-const name = 'Sandip';
+//---------X---------------X-------------X------------------------------------------------------------
+
+const name =require('./utils');
 
 console.log(name);
